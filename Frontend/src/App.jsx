@@ -6,8 +6,7 @@ import {
 } from 'lucide-react';
 
 // Backend API URL (Flask server runs on port 5001)
-const API_BASE_URL = 'http://localhost:5001';
-
+const apiBaseUrl = 'https://epe-backend.onrender.com';
 // --- Enhanced Confidence Badge with Animation ---
 const ConfidenceBadge = ({ confidence }) => {
   let colorClass = 'bg-gray-200 text-gray-800 ring-gray-400';
